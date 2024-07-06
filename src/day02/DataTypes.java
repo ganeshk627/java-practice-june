@@ -1,60 +1,46 @@
-package day01;
+package day02;
 
-// 0. Class name and file name should be same
-// 1. Class should start with uppercase
-// 2. Should not start with number but can end with number
-// 3. only "_" is allowed
-// 4. Contains number or upper or lower case or underscore
-public class Car
+
+public class DataTypes
 {
 
-    //// ATTRIBUTES/ VARIABLES
-    // i am comment
-    //numbers - int, float, long
-    int noofseats = 6;
-    double mileage = 30.7;
-    // string - "sequence of chars"
-    String color = "Red";
-    String feultype = "Petrol";
-    boolean autopilot = true;
-    boolean four_wheel_control = false;
-    // array (String)
-    String [] addfeatures=  new String[] {"Automatic mirror adjustmnet", "Parking camera", "Top open"} ;// collection of single datatype
 
-
-    //// BEHAVIOURS/ METHODS
-    public void pressAccelerator() {
-        System.out.println("Pressing Accelerator...!");
-    }
-    public void pressBrake() {
-        System.out.println("Pressing Brake...!");
-    }
-
-    public void getFeulType() {
-        System.out.println(feultype);
-    }
 
 
     public static void main(String[] args)
     {
-        // creating object of class 'Car'
-        Car car = new Car();
+        // ATTRIBUTES/ VARIABLES
+        // i am comment
+        //numbers - int, float, long
+        //int - 32 bit
+        int noofseats = 6;
+        int temp = -5;
+        // float - 32 bit
+        float laptime_s = 1.0039434343434F;
+        // double - 64 bit
+        double mileage = 30.799343434343434343435;
+        // long - 64 bit
+        long chasisno = 987654321;
+        // string - "sequence of chars" - 32 bit
+        String title = "I am number 1";
+        String phone_number = "9876543210";
+        String color = "Red";
+        String feultype = "Petrol";
+        // boolean - true/ false - 1 bit
+        boolean autopilot = true;
+        boolean four_wheel_control = false;
+        // array (String)
+        String [] addfeatures =  new String[] {"Automatic mirror adjustmnet", "Parking camera", "Top open"} ;// collection of single datatype
 
 
-//        System.out.println("hello");
-//        System.out.println(12);
-        System.out.println(car.noofseats);
-        System.out.println(car.mileage);
+        System.out.println(noofseats);
+        System.out.println(mileage);
         // System.out.println(color);
-        System.out.println(car.feultype);
-        System.out.println(car.addfeatures.length);
+        System.out.println(feultype);
+        System.out.println(addfeatures.length);
 
 
-        car.pressAccelerator();
-        car.pressAccelerator();
-        car.pressBrake();
-        car.getFeulType();
-        car.getFeulType();
+
 
     }
 }
