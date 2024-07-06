@@ -23,11 +23,11 @@ public class Methods {
     public void changeGear(int gear) {
         System.out.println("Changing gear: " + gear);
     }
+
     // Return and Parameter
     public int addition(int a, int b) {
         return a + b;
     }
-
 
 
     public static void main(String[] args) {
@@ -37,6 +37,7 @@ public class Methods {
         System.out.println(m.getFeultype());
         m.changeGear(3);
         int sum = m.addition(10, 20);
+        System.out.println(sum);
         System.out.println(sum);
     }
 }

@@ -114,13 +114,13 @@ public class DecisionMaking {
         // while(condition) { }
         int no_of_movies_per_ticket = 4;
         int no_of_movies_watched = 0;
-        while(no_of_movies_watched < no_of_movies_per_ticket) {
-            no_of_movies_watched ++;
-            System.out.println("Watched my " + no_of_movies_watched +  " movie!!!");
+        while (no_of_movies_watched < no_of_movies_per_ticket) {
+            no_of_movies_watched++;
+            System.out.println("Watched my " + no_of_movies_watched + " movie!!!");
         }
         int no_movies_remaining = no_of_movies_per_ticket;
-        while(no_movies_remaining != 0) {
-            no_movies_remaining --;
+        while (no_movies_remaining != 0) {
+            no_movies_remaining--;
             System.out.println("Movies count remaining: " + no_movies_remaining);
         }
 
@@ -132,12 +132,11 @@ public class DecisionMaking {
         do {
             attempt++;
             System.out.println("Cutting the apple: " + attempt);
-            if(rot_attempt==attempt) {
+            if (rot_attempt == attempt) {
                 rotten = true;
                 System.out.println("Apple found rotten at attempt: " + attempt);
             }
-        } while (!rotten && (apples>attempt));
-
+        } while (!rotten && (apples > attempt));
 
 
     }
