@@ -1,0 +1,12 @@
+1. Single - one parent having one child - a->b
+2. Multilevel - a->b->c
+3. Heirarchy -
+4. Multiple - java doesnt support (class)
+5. Hybrid - combination of any two or more types
+
+
+
+
+1. extends keyword is used to extend a class - child --> parent
+2. class can extend only one class
+3. protected keyword
