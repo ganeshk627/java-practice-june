@@ -5,8 +5,11 @@
 5. Hybrid - combination of any two or more types
 
 
-
-
 1. extends keyword is used to extend a class - child --> parent
 2. class can extend only one class
 3. protected keyword
+
+interface --> template with abstract methods
+
+class --> extends --> strong
+interface --> implements --> weak

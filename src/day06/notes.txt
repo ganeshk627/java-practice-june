@@ -1,0 +1,6 @@
+
+
+Overriding --> Writing same method with same signature in child class eg. samename, same return type, same param
+                We can use @Override annotation before overriden method but its optional
+
+Overloading --> same name but different parameter in same class

@@ -11,5 +11,7 @@ public class InnerClass {
 
         // protected
         shapes.Triangle();
+
+//        Child
     }
 }
